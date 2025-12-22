@@ -1,17 +1,18 @@
 # Metadados da aplicação para o catálogo DGB
-name: "Anotação de Notícias - Fase 4"
-description: "Interface de anotação manual de notícias governamentais para criação de dataset de teste da árvore temática"
+name: "Anotação de Notícias"
+description: "App para anotar notícias com temas de uma taxonomia hierárquica. Usado para classificação manual de artigos do govbrnews."
 owner:
-  name: "Equipe Fase 4 - Validação e Refinamento"
-  email: "nitai@exemplo.com"
+  name: "Nitai Bezerra"
+  email: "nitaibezerra@protonmail.com"
 category: "admin"  # analytics, visualization, exploration, admin
 tags:
   - "anotação"
   - "dataset"
   - "classificação"
   - "árvore temática"
+  - "govbrnews"
 keywords: "anotação, notícias, classificação, temas, dataset, ground truth"
 icon: "📋"
 version: "1.0.0"
-repository: "https://github.com/destaquesgovbr/themes-tree"
-documentation: "https://github.com/destaquesgovbr/themes-tree/blob/main/_plan_refinamento/README.md"
+repository: "https://github.com/destaquesgovbr/streamlit-annotation-app"
+documentation: "https://github.com/destaquesgovbr/streamlit-annotation-app/blob/main/README.md"
