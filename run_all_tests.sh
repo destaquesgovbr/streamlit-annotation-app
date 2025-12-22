@@ -76,7 +76,7 @@ fi
 echo ""
 
 # Rodar testes Playwright
-pytest tests/test_annotation_flow.py $PYTEST_ARGS
+pytest tests/test_annotation_flow.py tests/e2e/ $PYTEST_ARGS
 
 if [ $? -eq 0 ]; then
     echo -e "\n${GREEN}✅ Todos os testes Playwright passaram!${NC}\n"
